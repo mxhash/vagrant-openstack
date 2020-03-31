@@ -1,0 +1,11 @@
+.*
+
+config/*local*
+
+!.gitignore
+
+log/*
+!log/.keep
+
+work/*
+!work/.keep
