@@ -19,6 +19,9 @@ update-alternatives --set pip /usr/bin/pip3
 echo "pip install openstack client"
 pip -q install --upgrade python-openstackclient
 
+echo "pip install openstack sdk"
+pip -q install --upgrade openstacksdk
+
 # Install Terraform
 export TF_VER="0.12.24"
 echo "Install Terraform (${TF_VER})"
